@@ -28,6 +28,6 @@ console.log(b2, b2.length);
 const b3 = new Array(1, 2, 3, 4, 5);
 console.log(b3, b3.length);
 
-
-console.log(a1.__proto__.constructor);
-console.log(b1.__proto__.constructor);
+// কনস্ট্রাক্টর এবং ফ্যাক্টরি প্যাটার্ন একই রকম তার প্রমাণ 
+console.log(a1.__proto__.constructor); // প্রডাকশন পারপাস অনলি। 
+console.log(b1.__proto__.constructor); // প্রডাকশন পারপাস অনলি। 
